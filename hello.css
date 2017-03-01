@@ -1,0 +1,22 @@
+h1 {
+  color: #FF0000;
+  background-color: #808080;
+  margin-left: 100px;
+  font-size: 10px;
+}
+
+/*
+  セレクタの種類
+  ①タグ名
+  ②id名
+  ③class名
+*/
+
+#top_conntent {
+  color: #0080FF;
+}
+
+.big_blue {
+  color: #0000FF;
+  font-size: 30px;
+}

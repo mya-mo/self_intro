@@ -1,0 +1,593 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Bolt - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+ 
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* OVERALL ASPECT */
+body {
+  background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+    margin-top: 30px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/*mt. {
+	margin-top: 40px;
+}
+
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* Bootstrap Modifications */
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	background-color: #f8f8ff;
+  box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+#top-logo {
+  width: 60px !important;
+  height: auto;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+  border-left: 1px solid #a9a9a9;
+	background-color: #808080;
+}
+
+.navbar-brand {
+	font-size: 60px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.btn-theme {
+	color: #ffffff;
+	background-color: #74cfae;
+	border-color: transparent;
+}
+
+.btn {
+	padding: 20px 80px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	border: 5px solid transparent;
+	border-radius: 0px;
+}
+
+.lead {
+	letter-spacing: 1px;
+}
+
+/* WRAP SECTIONS */
+
+/* hello */
+#hello {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 60px;
+}
+
+#hello h1 {
+  padding-top: 30px;
+	font-size: 90px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #708090;
+}
+
+#hello h2 {
+	color: #c0c0c0;
+	font-weight: 400;
+}
+
+#me {
+  padding-bottom: 10px; 
+}
+
+#me img{
+  height: 200px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+#me p{
+  width: auto;
+  font-size: 25px;
+  padding-bottom: 20px;
+  color: #f5f5f5
+}
+
+#choice {
+  padding-bottom: 100px; 
+}
+
+#choice p{
+  width: auto;
+  font-size: 35px;
+  color: #f5f5f5
+}
+
+/* slategray */
+#slategray {
+	background-color: #dcdcdc;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+#white {
+  background-color: #f5f5f5;
+  padding: 20px 0px 20px 0px;
+}
+
+/* Skills */
+/*#skills {
+	background-color: #dcdcdc;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}*/
+
+#skills h3 {
+	color: #696969;
+}
+
+#skills p {
+	color: #696969;
+	font-weight: 400;
+}
+
+/* Social Links */
+#social {
+	width: 100%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+#social i {
+	font-size: 50px;
+	color: #74cfae;
+}
+
+#social .col-md-3:hover {
+	background-color: #f5f5f5;
+}
+
+#social .col-md-3 {
+	padding:30px;
+}
+
+/* Footer */
+#footer {
+  background-color: #696969;
+	padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#footer p {
+	color: white;
+	text-align: center;
+	font-weight: 400;
+  line-height: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+/* Image Opacity */
+.grid img {
+    opacity: .7;
+}
+.grid img:hover {
+    opacity: 1;
+}
+
+#bussiness {
+  background-color: #708090;
+  color: #f5f5f5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  font-size: 25px;
+}
+
+#private {
+  background-color: #708090;
+  color: #f5f5f5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  font-size: 25px;
+}
+
+.to_page_top {
+  color: #808080;
+  font-size: 12px;
+}
+
+.shadow {
+    margin-top: 5px;
+    display: inline-block;
+    width: 300px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+/****** LOGIN MODAL ******/
+/* http://bootsnipp.com/snippets/featured/modal-login-with-jquery-effects */
+   
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#login-modal .modal-dialog {
+    width: 350px;
+}
+
+#login-modal input[type=text], input[type=password] {
+  margin-top: 10px;
+}
+
+#div-login-msg,
+#div-lost-msg,
+#div-register-msg {
+    border: 1px solid #dadfe1;
+    height: 30px;
+    line-height: 28px;
+    transition: all ease-in-out 500ms;
+}
+
+#div-login-msg.success,
+#div-lost-msg.success,
+#div-register-msg.success {
+    border: 1px solid #68c3a3;
+    background-color: #c8f7c5;
+}
+
+#div-login-msg.error,
+#div-lost-msg.error,
+#div-register-msg.error {
+    border: 1px solid #eb575b;
+    background-color: #ffcad1;
+}
+
+#icon-login-msg,
+#icon-lost-msg,
+#icon-register-msg {
+    width: 30px;
+    float: left;
+    line-height: 28px;
+    text-align: center;
+    background-color: #dadfe1;
+    margin-right: 5px;
+    transition: all ease-in-out 500ms;
+}
+
+#icon-login-msg.success,
+#icon-lost-msg.success,
+#icon-register-msg.success {
+    background-color: #68c3a3 !important;
+}
+
+#icon-login-msg.error,
+#icon-lost-msg.error,
+#icon-register-msg.error {
+    background-color: #eb575b !important;
+}
+
+#img_logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#more_info {
+  margin-top: 30px;
+}
+
+/* #########################################
+   #    override the bootstrap configs     #
+   ######################################### */
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .8;
+}
+
+.modal-content {
+    background-color: #ececec;
+    border: 1px solid #bdc3c7;
+    border-radius: 0px;
+    outline: 0;
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 0px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 5px 15px 5px 15px;
+}
+
+.modal-footer {
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    border-top: 0px;
+}
+
+.checkbox {
+    margin-bottom: 0px;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+    border-radius: 0px;
+}
+
+.btn-link {
+    padding: 5px 10px 0px 0px;
+    color: #95a5a6;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.glyphicon {
+    top: 0px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+.garrery-photo {
+  padding-bottom: 20px;
+}
+
+/****** 動画挿入 ******/
+body {
+  background: #000;
+}
+.pattern {
+  width: 100%;
+  height: 100%;
+  background: url(http://www.webcreatorbox.com/sample/images/yokojima.png);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+video {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.overray_movie {
+  position: relative;
+  z-index: 3;
+}
+
+/****** Page Loading ******/
+.gray-bg{
+  background:#000000;    
+}
+.pageloader {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 1000000;
+  opacity:1;
+  overflow: hidden;
+  display: table;
+}
+.loader {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.loader span{
+  color: #1ABC9C;
+  font-weight: 300;
+  font-size: 60px;
+  display: block;
+  margin-top: 40px;
+}
+.sp-hydrogen {
+  width: 96px;
+  height: 96px;
+  clear: both;
+  margin: 60px auto;
+  position: relative;
+  border: 3px #2f4f4f solid;
+  border-radius: 50%;
+  -webkit-animation: spHydro 0.7s infinite linear;
+  animation: spHydro 0.7s infinite linear;
+}
+.sp-hydrogen:before, .sp-hydrogen:after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #252830;
+  border-radius: 50%;
+}
+.sp-hydrogen:before {
+  top: calc( 50% - 15px );
+  left: calc( 50% - 15px );
+}
+.sp-hydrogen:after {
+  top: -3px;
+  left: -3px;
+}
+
+@-webkit-keyframes spHydro {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@keyframes spHydro {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
